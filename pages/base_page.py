@@ -15,3 +15,4 @@ class BasePage(ABC):
 
     def find_elements(self, by: By, value: str) -> List[WebElement]:
         return self.driver.find_elements(by, value)
+
